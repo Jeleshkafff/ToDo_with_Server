@@ -1,0 +1,66 @@
+body {
+    background-color: #fbf6e1;
+}
+.input {
+    background-color: #fad6b8;
+    color: #270585;
+    font-family: "Varela Round", sans-serif;
+    display: block;
+    margin-left: auto;
+    width: 903px;
+    height: 59px;
+    margin-right: auto;
+    font-size: 36px;
+    border: 0.5px solid #fad6b8;
+    border-radius: 10px;
+}
+.h1 {
+    font-family: "Varela Round", sans-serif;
+    background-color: #ffa358;
+    color: #1b0031;
+    text-align: center;
+    border-radius: 7px;
+}
+.btn {
+    font-family: "Varela Round", sans-serif;
+    background-color: #ffc595;
+    border: 0.5px solid #ffc595;
+    display: block;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 357px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+.li {
+    list-style-type: none;
+    /* margin: 8px; */
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+}
+.btn1 {
+    height: 30px;
+    font-size: 25px;
+    margin: 10px;
+    background-color: #fad6b8;
+    border: 0.5px solid #fad6b8;
+    border-radius: 20px;
+}
+.btn2 {
+    height: 30px;
+    font-size: 25px;
+    margin: 10px;
+    background-color: #efd1b4;
+    border: 0.5px solid #efd1b4;
+    border-radius: 20px;
+}
+.link {
+    margin: 10px;
+    position: absolute;
+    font-family: "Varela Round", sans-serif;
+    color: #18002c;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>TODO</title>
+    <meta charset="UTF-8" />
+    <script>
+      async function getComents() {
+        const response = await fetch("http://localhost:3000/api/todos");
+        const data = await response.json();
+        console.log(data);
+      }
+
+      // getComents();
+      async function test(names, owners, dones) {
+        fetch("http://localhost:3000/api/todos", {
+          method: "POST",
+          body: JSON.stringify({
+            name: names,
+            owner: owners,
+            done: dones,
+          }),
+        });
+        // test();
+      }
+
+      async function delet(id) {
+        fetch(`http://localhost:3000/api/todos/${id}`, {
+          method: "DELETE",
+        });
+      }
+
+      // delet()
+    </script>
+  </head>
+
+  <body></body>
+</html>
